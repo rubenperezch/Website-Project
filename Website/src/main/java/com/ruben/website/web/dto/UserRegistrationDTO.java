@@ -13,7 +13,7 @@ public class UserRegistrationDTO {
         this.password = password;
     }
 
-    UserRegistrationDTO() {
+    public UserRegistrationDTO() {
 
     }
 

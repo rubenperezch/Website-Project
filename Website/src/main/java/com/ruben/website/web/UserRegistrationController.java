@@ -1,4 +1,4 @@
-package com.ruben.website.web.dto;
+package com.ruben.website.web;
 
 import com.ruben.website.service.UserService;
 import org.springframework.stereotype.Controller;
@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.ruben.website.service.UserService;
+import com.ruben.website.web.dto.UserRegistrationDTO;
 
 @Controller
 @RequestMapping("/registration")
